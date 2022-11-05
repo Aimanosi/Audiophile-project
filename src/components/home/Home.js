@@ -87,7 +87,9 @@ const home = () => {
         <img className="img-home04" src={speaker04} alt="" />
 
         <div className="home03-text">
-          <h1>ZX9 SPEAKER</h1>
+          <h1>
+            ZX9 <br /> SPEAKER
+          </h1>
           <p>
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.

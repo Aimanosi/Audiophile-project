@@ -119,6 +119,12 @@ body {
 }
 
 /* Home Section 3 */
+
+.home03-text {
+  width: 20rem;
+  margin: auto;
+}
+
 .home03 {
   margin: 2rem;
   background-color: #d87d4a;
@@ -128,7 +134,7 @@ body {
 
 .home03 h1 {
   font-size: 36px;
-  margin: 3rem 8rem;
+  margin: 3rem 0;
   color: #f1f1f1;
 }
 
@@ -136,7 +142,7 @@ body {
   font-size: 15px;
   line-height: 30px;
   font-weight: 100;
-  margin: 2rem 4rem;
+  margin: 2rem 0;
   color: #f1f1f1;
 }
 
@@ -227,7 +233,7 @@ body {
   /* Home Section 3 */
   .home03 h1 {
     font-size: 56px;
-    margin: 2rem 15rem;
+    margin: 2rem 0rem;
     color: #f1f1f1;
   }
   .img-home04 {
@@ -238,7 +244,7 @@ body {
     font-size: 15px;
     line-height: 30px;
     font-weight: 100;
-    margin: 2rem 13rem;
+    margin: 2rem 0rem;
     color: #f1f1f1;
   }
 }
@@ -293,13 +299,16 @@ body {
   /* Home Section 3 */
 
   .home03 {
-    padding-top: 8rem;
+    position: relative;
+    margin-top: 5rem;
+    padding-top: 10rem;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 600px 2fr;
   }
 
   .img-home04 {
     display: block;
+    margin-left: 5rem;
   }
 
   .img-home03 {
@@ -310,20 +319,14 @@ body {
     font-size: 56px;
     margin: 0;
     color: #f1f1f1;
-    text-align: left;
   }
 
   .home03 p {
     font-size: 15px;
     line-height: 30px;
     font-weight: 100;
-    margin: 0;
+    margin: 2rem 0;
     color: #f1f1f1;
-    text-align: left;
-  }
-
-  .home03-text {
-    position: relative;
   }
 
   .home03 .btn {
@@ -335,5 +338,15 @@ body {
     background-color: #0000;
     border-radius: 0;
     background-color: black;
+  }
+
+  .home03-text {
+    position: relative;
+    margin-top: 0;
+    margin-left: 4rem;
+    width: 23rem;
+    top: 0;
+    left: 0;
+    text-align: left;
   }
 }
