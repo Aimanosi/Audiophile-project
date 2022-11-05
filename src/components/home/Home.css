@@ -28,9 +28,8 @@ body {
   left: 0;
   right: 0;
   margin: auto;
-
   color: white;
-  margin-top: 22rem;
+  margin-top: 21rem;
   width: 24rem;
 }
 
@@ -42,18 +41,18 @@ body {
 }
 
 .home01-text h1 {
-  font-size: 55px;
+  font-size: 48px;
   font-weight: 700px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
 
 .home01-text p {
-  font-size: 18px;
-  font-weight: 200;
+  font-size: 17px;
+  font-weight: 0;
   line-height: 30px;
   color: #ffff;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .home01-text a {
