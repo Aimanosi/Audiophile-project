@@ -1,0 +1,161 @@
+.imageshome {
+  position: relative;
+}
+
+.tablet-image {
+  display: none;
+}
+
+.desktop-image {
+  display: none;
+}
+
+.mobile-image {
+  display: block;
+  width: 100%;
+}
+
+.home01-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0 3rem;
+  color: white;
+  margin-top: 22rem;
+  width: 28rem;
+}
+
+.home01-text h5 {
+  font-size: 14px;
+  font-weight: 400px;
+  letter-spacing: 15px;
+  color: #a9a9a9;
+}
+
+.home01-text h1 {
+  font-size: 55px;
+  font-weight: 700px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.home01-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #a9a9a9;
+}
+
+.home01-text a {
+  color: #ffffff;
+  margin-top: 1rem;
+  background-color: #d87d4a;
+  border-radius: 0;
+  font-size: 15px;
+  padding: 1.1rem 3rem;
+}
+
+@media (min-width: 769px) and (max-width: 1198px) {
+  .imageshome {
+    position: relative;
+  }
+
+  .tablet-image {
+    display: block;
+    width: 100%;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+  .home01-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 3rem;
+    color: white;
+    margin-top: 20rem;
+    width: 28rem;
+  }
+  .home01-text h5 {
+    font-size: 14px;
+    font-weight: 400px;
+    letter-spacing: 15px;
+    color: #a9a9a9;
+  }
+
+  .home01-text h1 {
+    font-size: 55px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+
+  .home01-text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #a9a9a9;
+  }
+
+  .home01-text a {
+    color: #ffffff;
+    margin-top: 1rem;
+    background-color: #d87d4a;
+    border-radius: 0;
+    font-size: 15px;
+    padding: 1.1rem 3rem;
+  }
+}
+
+@media (min-width: 1199px) {
+  .imageshome {
+    position: relative;
+  }
+
+  .tablet-image {
+    display: none;
+  }
+
+  .desktop-image {
+    display: block;
+    width: 100%;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  .home01-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 3rem;
+    color: white;
+    margin-top: 20rem;
+    margin-left: 4rem;
+    width: 35rem;
+    text-align: left;
+  }
+
+  .home01-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #a9a9a9;
+    padding: 1rem;
+  }
+}
