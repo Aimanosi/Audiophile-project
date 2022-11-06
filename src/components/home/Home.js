@@ -6,11 +6,16 @@ import imageheaderdesk from "../../images/home/desktop/image-hero.jpg";
 import righticon from "../../images/shared/desktop/icon-arrow-right.svg";
 import speaker03 from "../../images/home/mobile/image-speaker-zx9.png";
 import speaker04 from "../../images/image-removebg-preview.png";
+import section04mobile from "../../images/home/mobile/image-speaker-zx7.jpg";
+import section04tablet from "../../images/home/tablet/image-speaker-zx7.jpg";
+import section04desktop from "../../images/home/desktop/image-speaker-zx7.jpg";
+
+import section05mobile from "../../images/home/mobile/image-earphones-yx1.jpg";
+import section05tablet from "../../images/home/tablet/image-earphones-yx1.jpg";
+import section05desktop from "../../images/home/desktop/image-earphones-yx1.jpg";
 
 import headphone from "../../images/xheadphones.png";
-
 import speaker from "../../images/xspeakers.png";
-
 import earphone from "../../images/xearphones.png";
 
 const home = () => {
@@ -94,6 +99,34 @@ const home = () => {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
+          <a className="btn" href="#">
+            SEE PRODUCT
+          </a>
+        </div>
+      </div>
+
+      {/* HOME SECTION 4 */}
+      <div className="home04">
+        <img className="mob-img" src={section04mobile} alt="" />
+        <img className="mob-tab" src={section04tablet} alt="" />
+        <img className="mob-desk" src={section04desktop} alt="" />
+
+        <div className="home04-text">
+          <h5>ZX7 SPEAKER</h5>
+          <a className="btn" href="#">
+            SEE PRODUCT
+          </a>
+        </div>
+      </div>
+
+      {/* HOME SECTION 4 */}
+
+      <div className="home05">
+        <img className="mob-ear" src={section05mobile} alt="" />
+        <img className="tab-ear" src={section05tablet} alt="" />
+        <img className="desk-ear" src={section05desktop} alt="" />
+        <div className="home05-text">
+          <h5>YX1 EARPHONES</h5>
           <a className="btn" href="#">
             SEE PRODUCT
           </a>

@@ -126,6 +126,8 @@ body {
 
 .home03 {
   margin: 2rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
   background-color: #d87d4a;
   border-radius: 10px;
   color: #f1f1f1;
@@ -148,8 +150,12 @@ body {
 .home03 .btn {
   color: #f1f1f1;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 1.2rem 2.8rem;
   margin: 2rem 0 4rem 0;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 17.76px;
+  font-weight: 700;
   background-color: #0000;
   border-radius: 0;
   background-color: black;
@@ -162,6 +168,106 @@ body {
 .home03 .img-home03 {
   margin-top: 5rem;
   width: 13rem;
+}
+
+/* Home Section 4 */
+.home04 {
+  position: relative;
+  margin: 2rem;
+}
+
+.home04-text {
+  position: absolute;
+  top: 30%;
+  margin-left: 2rem;
+}
+
+.home04-text h5 {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 38.25px;
+  margin-bottom: 4rem;
+}
+
+.mob-img {
+  width: 100%;
+}
+
+.mob-img {
+  border-radius: 10px;
+}
+.mob-tab,
+.mob-desk {
+  display: none;
+}
+
+.home04 .btn {
+  color: #000;
+  text-decoration: none;
+  padding: 1.2rem 2.8rem;
+  border-radius: 0;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 17.76px;
+  font-weight: 700;
+  border: 2px solid black;
+  margin-right: 4rem;
+}
+
+.home04 .btn:hover {
+  background-color: #000;
+  color: #ffff;
+}
+
+/* Home Section 5 */
+
+.home05-text h5 {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 38.25px;
+  margin-bottom: 4rem;
+}
+
+.home05 .btn {
+  color: #000;
+  text-decoration: none;
+  padding: 1.2rem 2.8rem;
+  border-radius: 0;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 17.76px;
+  font-weight: 700;
+  border: 2px solid black;
+  margin-right: 6rem;
+}
+
+.home05 .btn:hover {
+  background-color: #000;
+  color: #ffff;
+}
+
+.home05 {
+  margin: 2rem;
+}
+
+.mob-ear {
+  margin-bottom: 2rem;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.tab-ear,
+.desk-ear {
+  display: none;
+}
+
+.home05-text {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 4rem 0;
+  width: 100%;
 }
 
 @media (min-width: 769px) and (max-width: 1198px) {
@@ -230,6 +336,10 @@ body {
   }
 
   /* Home Section 3 */
+  .home03 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
   .home03 h1 {
     font-size: 56px;
     margin: 2rem 0rem;
@@ -245,6 +355,62 @@ body {
     font-weight: 100;
     margin: 2rem 0rem;
     color: #f1f1f1;
+  }
+
+  /* Home Section 4 */
+
+  .home04 {
+    position: relative;
+    margin: 2rem;
+  }
+
+  .home04-text {
+    position: absolute;
+    top: 30%;
+    margin-left: 2rem;
+  }
+
+  .home04-text h5 {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 38.25px;
+    margin-bottom: 4rem;
+  }
+
+  .mob-img,
+  .mob-desk {
+    display: none;
+  }
+
+  .mob-tab {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+
+  /* Home Section 5 */
+  .home05 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    margin: 2rem;
+    width: 100%;
+  }
+
+  .tab-ear {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  .mob-ear,
+  .desk-ear {
+    display: none;
+  }
+  .home05-text {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 4rem 0;
   }
 }
 
@@ -299,7 +465,7 @@ body {
 
   .home03 {
     position: relative;
-    margin-top: 5rem;
+    margin-top: 8rem;
     padding-top: 10rem;
     display: grid;
     grid-template-columns: 600px 2fr;
@@ -347,5 +513,75 @@ body {
     top: 0;
     left: 0;
     text-align: left;
+  }
+
+  /* Home Section 4 */
+  .mob-desk {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .mob-img,
+  .mob-tab {
+    display: none;
+  }
+
+  .home04 .btn {
+    color: #000;
+    text-decoration: none;
+    padding: 1.2rem 2.8rem;
+    border-radius: 0;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 17.76px;
+    font-weight: 700;
+    border: 2px solid black;
+  }
+
+  .home04-text {
+    position: absolute;
+    top: 30%;
+    margin-left: 8rem;
+  }
+
+  /* Home Section 5 */
+  .home05 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    margin: 2rem;
+    width: 100%;
+  }
+
+  .desk-ear {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  .mob-ear,
+  .tab-ear {
+    display: none;
+  }
+  .home05-text {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 4rem 0;
+  }
+
+  .home05-text {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 4rem 8rem 0 0;
+    width: 100%;
+  }
+
+  .home05-text h5 {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 38.25px;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
   }
 }
