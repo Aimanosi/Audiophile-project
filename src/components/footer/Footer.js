@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="footer-img">
         <img className="mobileimg" src={mobileimg} alt="" />
         <img className="tabimg" src={tabimg} alt="" />
-        <img className="deskimg" src={deskimg} alt="" />
+
         <div className="footer-text">
           <h1>
             Bringing you the <span>best</span> audio gear
@@ -29,6 +29,7 @@ const Footer = () => {
             make Audiophile the best place to buy your portable audio equipment.
           </p>
         </div>
+        <img className="deskimg" src={deskimg} alt="" />
       </div>
 
       {/* section 2 */}
@@ -40,13 +41,13 @@ const Footer = () => {
           <div className="navbrand">
             <img src={navbrand} alt="" />
           </div>
-        </div>
 
-        <div className="links">
-          <a href="#">HOME</a>
-          <a href="#">HEADPHONES</a>
-          <a href="#">SPEAKERS</a>
-          <a href="#">EARPHONES</a>
+          <div className="links">
+            <a href="#">HOME</a>
+            <a href="#">HEADPHONES</a>
+            <a href="#">SPEAKERS</a>
+            <a href="#">EARPHONES</a>
+          </div>
         </div>
         <p>
           Audiophile is an all in one stop to fulfill your audio needs. We're a

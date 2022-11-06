@@ -2,7 +2,8 @@
 
 .navbar {
   background-color: #191919;
-  margin-bottom: 5px solid white;
+  border-bottom: 1px solid white;
+  margin: 0;
 }
 
 .navbar .navbar-nav {

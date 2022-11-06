@@ -6,7 +6,7 @@ import CombinedShape from "../../images/home/desktop/Combined Shape.png";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg py-4 mx-5">
+      <nav className="navbar navbar-expand-lg py-4 ">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={navbrand} alt="" srcset="" />
