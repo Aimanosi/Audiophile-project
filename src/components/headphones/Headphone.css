@@ -10,7 +10,7 @@ body {
 }
 
 .heading {
-  background-color: black;
+  background-color: #191919;
   color: #fff;
   font-size: 28px;
   padding: 1rem;
@@ -44,7 +44,8 @@ h4 {
   line-height: 38.25px;
   text-transform: uppercase;
   margin-bottom: 2rem;
-  padding: 0 2rem;
+  padding: 2rem 2rem;
+  margin: auto;
 }
 
 .section01 p {
