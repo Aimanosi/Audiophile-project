@@ -2,15 +2,16 @@ import React from "react";
 import "./Navbar.css";
 import navbrand from "../../images/home/desktop/audiophile.png";
 import CombinedShape from "../../images/home/desktop/Combined Shape.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg py-4 ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img src={navbrand} alt="" srcset="" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,23 +25,23 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link " aria-current="page" href="#">
+              <Link className="" aria-current="page" to="/">
                 HOME
-              </a>
-              <a className="nav-link " href="#">
+              </Link>
+              <Link className="" to="/headphone">
                 HEADPHONES
-              </a>
-              <a className="nav-link " href="#">
+              </Link>
+              <Link className="" to="/Speakers">
                 SPEAKERS
-              </a>
-              <a className="nav-link " href="#">
+              </Link>
+              <Link className="" to="Earphones">
                 EARPHONES
-              </a>
+              </Link>
             </div>
             <div classNameName="cart-icon">
-              <a className="nav-link">
+              <Link className="nav-link">
                 <img src={CombinedShape} alt="" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

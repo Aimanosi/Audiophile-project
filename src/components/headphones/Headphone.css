@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.section01 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.heading {
+  background-color: black;
+  color: #fff;
+  font-size: 28px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.section01-img {
+  margin-top: 4rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section02-img,
+.section03-img {
+  display: none;
+}
+
+.section01 h6 {
+  color: #d87d4a;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  line-height: 19.12px;
+  margin: 2rem 0;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 38.25px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
+
+.section01 p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  padding: 0 4rem;
+  opacity: 50%;
+}
+
+.section01 .btn {
+  color: #f1f1f1;
+  text-decoration: none;
+  padding: 1.2rem 2.8rem;
+  margin: 2rem 0 4rem 0;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 17.76px;
+  font-weight: 700;
+  background-color: #d87d4a;
+  border-radius: 0;
+}
+
+.section01 .btn:hover {
+  background-color: #fbaf85;
+}
+
+/* section 2 */
+.heading-02 {
+  margin-top: 2rem;
+}
+
+.home02 {
+  text-align: center;
+}
+
+@media (min-width: 769px) and (max-width: 1198px) {
+  .section01 {
+    margin: 2rem;
+  }
+
+  .section02-img {
+    display: block;
+    margin-top: 4rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .section01-img,
+  .section03-img {
+    display: none;
+  }
+}
+
+@media (min-width: 1199px) {
+  .section01 {
+    margin: 2rem;
+  }
+
+  .section03-img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .section01-img,
+  .section02-img {
+    display: none;
+  }
+  .section01 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .section01-text {
+    text-align: left;
+    margin: auto;
+    padding: 0 2rem 0 6rem;
+  }
+
+  h4 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.43px;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+
+  .section01 p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 0;
+    opacity: 50%;
+  }
+
+  /* section 2 */
+  #section02 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "right left";
+  }
+
+  #section02-text {
+    grid-area: right;
+  }
+}

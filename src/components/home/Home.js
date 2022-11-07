@@ -119,7 +119,7 @@ const home = () => {
         </div>
       </div>
 
-      {/* HOME SECTION 4 */}
+      {/* HOME SECTION 5 */}
 
       <div className="home05">
         <img className="mob-ear" src={section05mobile} alt="" />

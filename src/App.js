@@ -1,15 +1,29 @@
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
-import Footer from "./components/footer/Footer";
+import Headphone from "./components/headphones/Headphone";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
+import Speakers from "./components/speakers/Speakers";
+import Earphones from "./components/earphones/Earphones";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="headphone" element={<Headphone />} />
+          <Route path="speakers" element={<Speakers />} />
+          <Route path="earphones" element={<Earphones />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
+    // {/* <Navbar />
+    // <Home />
+    // <Footer />
+    // <Headphone /> */}
   );
 }
 
