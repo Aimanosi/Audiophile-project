@@ -56,8 +56,9 @@ const home = () => {
           <div className="text-container">
             {" "}
             <p>HEADPHONES</p>{" "}
-            <a href="">
-              SHOP NOW <img src={righticon} alt="" />{" "}
+            <a href="/headphone">
+              SHOP
+              <img id="righticon" src={righticon} alt="" />{" "}
             </a>{" "}
           </div>
         </div>
@@ -67,8 +68,9 @@ const home = () => {
           <div className="text-container">
             {" "}
             <p>SPEAKERS</p>{" "}
-            <a href="">
-              SHOP NOW <img src={righticon} alt="" />{" "}
+            <a href="/speakers">
+              SHOP
+              <img id="righticon" src={righticon} alt="" />{" "}
             </a>{" "}
           </div>
         </div>
@@ -78,8 +80,9 @@ const home = () => {
           <div className="text-container">
             {" "}
             <p>EARPHONES</p>{" "}
-            <a href="">
-              SHOP NOW <img src={righticon} alt="" />{" "}
+            <a href="/earphones">
+              SHOP
+              <img id="righticon" src={righticon} alt="" />{" "}
             </a>{" "}
           </div>
         </div>

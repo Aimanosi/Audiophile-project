@@ -47,7 +47,7 @@ const Earphones = () => {
               {" "}
               <p>HEADPHONES</p>{" "}
               <a href="">
-                SHOP NOW <img src={righticon} alt="" />{" "}
+                SHOP NOW <img id="righticon" src={righticon} alt="" />{" "}
               </a>{" "}
             </div>
           </div>
@@ -58,7 +58,7 @@ const Earphones = () => {
               {" "}
               <p>SPEAKERS</p>{" "}
               <a href="">
-                SHOP NOW <img src={righticon} alt="" />{" "}
+                SHOP NOW <img id="righticon" src={righticon} alt="" />{" "}
               </a>{" "}
             </div>
           </div>
@@ -69,7 +69,7 @@ const Earphones = () => {
               {" "}
               <p>EARPHONES</p>{" "}
               <a href="">
-                SHOP NOW <img src={righticon} alt="" />{" "}
+                SHOP NOW <img id="righticon" src={righticon} alt="" />{" "}
               </a>{" "}
             </div>
           </div>

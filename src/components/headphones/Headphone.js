@@ -16,6 +16,8 @@ import headphone from "../../images/xheadphones.png";
 import speaker from "../../images/xspeakers.png";
 import earphone from "../../images/xearphones.png";
 import righticon from "../../images/shared/desktop/icon-arrow-right.svg";
+import { Link } from "react-router-dom";
+import Headphone01 from "./Headphone01";
 
 const Headphone = () => {
   return (
@@ -37,7 +39,7 @@ const Headphone = () => {
             balanced depth and precision of studio-quality sound.
           </p>
 
-          <a href="#" className="btn">
+          <a href="/headphone01" className="btn">
             SEE PRODUCT
           </a>
         </div>
@@ -91,8 +93,8 @@ const Headphone = () => {
           <div className="text-container">
             {" "}
             <p>HEADPHONES</p>{" "}
-            <a href="">
-              SHOP NOW <img src={righticon} alt="" />{" "}
+            <a href="/headphone">
+              SHOP <img id="righticon" src={righticon} alt="" />{" "}
             </a>{" "}
           </div>
         </div>
@@ -102,8 +104,8 @@ const Headphone = () => {
           <div className="text-container">
             {" "}
             <p>SPEAKERS</p>{" "}
-            <a href="">
-              SHOP NOW <img src={righticon} alt="" />{" "}
+            <a href="/speakers">
+              SHOP <img id="righticon" src={righticon} alt="" />{" "}
             </a>{" "}
           </div>
         </div>
@@ -113,12 +115,14 @@ const Headphone = () => {
           <div className="text-container">
             {" "}
             <p>EARPHONES</p>{" "}
-            <a href="">
-              SHOP NOW <img src={righticon} alt="" />{" "}
+            <a href="/earphones">
+              SHOP <img id="righticon" src={righticon} alt="" />{" "}
             </a>{" "}
           </div>
         </div>
       </div>
+
+      <Headphone01 />
     </>
   );
 };

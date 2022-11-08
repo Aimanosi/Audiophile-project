@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className="footer-text">
           <h1>
-            Bringing you the <span>best</span> audio gear
+            Bringing you the <br /> <span>best</span> audio gear
           </h1>
           <p>
             Located at the heart of New York City, Audiophile is the premier
@@ -43,10 +43,10 @@ const Footer = () => {
           </div>
 
           <div className="links">
-            <a href="#">HOME</a>
-            <a href="#">HEADPHONES</a>
-            <a href="#">SPEAKERS</a>
-            <a href="#">EARPHONES</a>
+            <a href="/">HOME</a>
+            <a href="/headphone">HEADPHONES</a>
+            <a href="/speakers">SPEAKERS</a>
+            <a href="/earphones">EARPHONES</a>
           </div>
         </div>
         <p>

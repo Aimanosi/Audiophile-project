@@ -31,10 +31,10 @@ const Navbar = () => {
               <Link className="" to="/headphone">
                 HEADPHONES
               </Link>
-              <Link className="" to="/Speakers">
+              <Link className="" to="/speakers">
                 SPEAKERS
               </Link>
-              <Link className="" to="Earphones">
+              <Link className="" to="earphones">
                 EARPHONES
               </Link>
             </div>
