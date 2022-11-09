@@ -12,6 +12,7 @@ import headphone from "../../images/xheadphones.png";
 import speaker from "../../images/xspeakers.png";
 import earphone from "../../images/xearphones.png";
 import righticon from "../../images/shared/desktop/icon-arrow-right.svg";
+import { Link } from "react-router-dom";
 
 const Speakers = () => {
   return (
@@ -35,9 +36,9 @@ const Speakers = () => {
               practical audio setups.
             </p>
 
-            <a href="#" className="btn">
+            <Link to="/speaker01" className="btn">
               SEE PRODUCT
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -56,9 +57,9 @@ const Speakers = () => {
               use.
             </p>
 
-            <a href="#" className="btn">
+            <Link to="/speaker02" className="btn">
               SEE PRODUCT
-            </a>
+            </Link>
           </div>
         </div>
 

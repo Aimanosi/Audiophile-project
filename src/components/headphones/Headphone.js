@@ -16,7 +16,7 @@ import headphone from "../../images/xheadphones.png";
 import speaker from "../../images/xspeakers.png";
 import earphone from "../../images/xearphones.png";
 import righticon from "../../images/shared/desktop/icon-arrow-right.svg";
-import { Link } from "react-router-dom";
+import { a, Link } from "react-router-dom";
 import Headphone01 from "./Headphone01";
 
 const Headphone = () => {
@@ -39,9 +39,9 @@ const Headphone = () => {
             balanced depth and precision of studio-quality sound.
           </p>
 
-          <a href="/headphone01" className="btn">
+          <Link to="/headphone01" className="btn">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -59,9 +59,9 @@ const Headphone = () => {
             engineers, and music aficionados alike in studios and on the go.
           </p>
 
-          <a href="/headphone02" className="btn">
+          <Link to="/headphone02" className="btn">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -79,9 +79,9 @@ const Headphone = () => {
             wireless headset is a brilliant companion at home or on the move.
           </p>
 
-          <a href="/headphones03" className="btn">
+          <Link to="/headphone03" className="btn">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
       </div>
 

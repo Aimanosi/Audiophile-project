@@ -161,27 +161,27 @@ const Headphone01 = () => {
           <img className="imgsection05tab" src={imgsection05tab01} alt="" />
           <img className="imgsection05desk" src={imgsection05desk01} alt="" />
           <h5>XX99 MARK I</h5>
-          <a href="/" className="btn">
+          <Link href="/" className="btn">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
         <div>
           <img className="imgsection05mob" src={imgsection05mob02} alt="" />
           <img className="imgsection05tab" src={imgsection05tab02} alt="" />
           <img className="imgsection05desk" src={imgsection05desk02} alt="" />
           <h5>XX59</h5>
-          <a href="/" className="btn">
+          <Link href="/" className="btn">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
         <div>
           <img className="imgsection05mob" src={imgsection05mob03} alt="" />
           <img className="imgsection05tab" src={imgsection05tab03} alt="" />
           <img className="imgsection05desk" src={imgsection05desk03} alt="" />
           <h5>ZX9 SPEAKER</h5>
-          <a href="/" className="btn">
+          <Link href="/" className="btn">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -191,10 +191,10 @@ const Headphone01 = () => {
           <div className="text-container">
             {" "}
             <p>HEADPHONES</p>{" "}
-            <a href="/headphone">
+            <Link href="/headphone">
               SHOP
               <img id="righticon" src={righticon} alt="" />{" "}
-            </a>{" "}
+            </Link>{" "}
           </div>
         </div>
 
@@ -203,10 +203,10 @@ const Headphone01 = () => {
           <div className="text-container">
             {" "}
             <p>SPEAKERS</p>{" "}
-            <a href="/speakers">
+            <Link href="/speakers">
               SHOP
               <img id="righticon" src={righticon} alt="" />{" "}
-            </a>{" "}
+            </Link>{" "}
           </div>
         </div>
 
@@ -215,10 +215,10 @@ const Headphone01 = () => {
           <div className="text-container">
             {" "}
             <p>EARPHONES</p>{" "}
-            <a href="/earphones">
+            <Link href="/earphones">
               SHOP
               <img id="righticon" src={righticon} alt="" />{" "}
-            </a>{" "}
+            </Link>{" "}
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import "../headphones/Headphones01.css";
-import mobile01 from "../../images/product-xx99-mark-one-headphones/mobile/image-product.jpg";
-import tablet01 from "../../images/product-xx99-mark-one-headphones/tablet/image-product.jpg";
-import desktop01 from "../../images/product-xx99-mark-one-headphones/desktop/image-product.jpg";
+import mobile01 from "../../images/product-zx7-speaker/mobile/image-product.jpg";
+import tablet01 from "../../images/product-zx7-speaker/tablet/image-product.jpg";
+import desktop01 from "../../images/product-zx7-speaker/desktop/image-product.jpg";
 import { Link } from "react-router-dom";
 
 import headphone from "../../images/xheadphones.png";
@@ -10,17 +10,17 @@ import speaker from "../../images/xspeakers.png";
 import earphone from "../../images/xearphones.png";
 import righticon from "../../images/shared/desktop/icon-arrow-right.svg";
 
-import img01 from "../../images/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg";
-import img02 from "../../images/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg";
-import img03 from "../../images/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg";
+import img01 from "../../images/product-zx7-speaker/mobile/image-gallery-1.jpg";
+import img02 from "../../images/product-zx7-speaker/mobile/image-gallery-2.jpg";
+import img03 from "../../images/product-zx7-speaker/mobile/image-gallery-3.jpg";
 
-import img01tab from "../../images/product-xx99-mark-one-headphones/tablet/image-gallery-1.jpg";
-import img02tab from "../../images/product-xx99-mark-one-headphones/tablet/image-gallery-2.jpg";
-import img03tab from "../../images/product-xx99-mark-one-headphones/tablet/image-gallery-3.jpg";
+import img01tab from "../../images/product-zx7-speaker/tablet/image-gallery-1.jpg";
+import img02tab from "../../images/product-zx7-speaker/tablet/image-gallery-2.jpg";
+import img03tab from "../../images/product-zx7-speaker/tablet/image-gallery-3.jpg";
 
-import img01desk from "../../images/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg";
-import img02desk from "../../images/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg";
-import img03desk from "../../images/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg";
+import img01desk from "../../images/product-zx7-speaker/desktop/image-gallery-1.jpg";
+import img02desk from "../../images/product-zx7-speaker/desktop/image-gallery-2.jpg";
+import img03desk from "../../images/product-zx7-speaker/desktop/image-gallery-3.jpg";
 
 import imgsection05mob01 from "../../images/shared/mobile/image-xx99-mark-one-headphones.jpg";
 import imgsection05mob02 from "../../images/shared/mobile/image-xx59-headphones.jpg";
@@ -39,27 +39,30 @@ const Headphone01 = () => {
     <>
       {/* section 01 */}
 
-      <Link
+      <a
         href="/headphone"
         className="heading-category01"
         id="heading-category01"
       >
         Go Back
-      </Link>
+      </a>
 
       <div className="headphone-category01">
         <img className="section01-img" src={mobile01} alt="" />
         <img className="section02-img" src={tablet01} alt="" />
         <img className="section03-img" src={desktop01} alt="" />
         <div className="section01-text">
-          <h4>XX99 Mark I Headphones</h4>
+          <p className="new-product">New product</p>
+          <h4>
+            ZX7 <br /> SPEAKER
+          </h4>
           <p>
-            As the gold standard for headphones, the classic XX99 Mark I offers
-            detailed and accurate audio reproduction for audiophiles, mixing
-            engineers, and music aficionados alike in studios and on the go.
+            Stream high quality sound wirelessly with minimal to no loss. The
+            ZX7 speaker uses high-end audiophile components that represents the
+            top of the line powered speakers for home or studio use.
           </p>
 
-          <h6>$ 1,750</h6>
+          <h6>$ 3,500</h6>
 
           <div className="add-tocart">
             <div className="counter">
@@ -67,9 +70,9 @@ const Headphone01 = () => {
               <p>1</p>
               <button>+</button>
             </div>
-            <Link href="/" className="btn">
+            <a href="/" className="btn">
               ADD TO CART
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -80,20 +83,20 @@ const Headphone01 = () => {
         <div>
           <h5>FEATURES</h5>
           <p>
-            As the headphones all others are measured against, the XX99 Mark I
-            demonstrates over five decades of audio expertise, redefining the
-            critical listening experience. This pair of closed-back headphones
-            are made of industrial, aerospace-grade materials to emphasize
-            durability at a relatively light weight of 11 oz.
+            Reap the advantages of a flat diaphragm tweeter cone. This provides
+            a fast response rate and excellent high frequencies that lower
+            tiered bookshelf speakers cannot provide. The woofers are made from
+            aluminum that produces a unique and clear sound. XLR inputs allow
+            you to connect to a mixer for more advanced usage.
           </p>
           <p>
-            From the handcrafted microfiber ear cushions to the robust metal
-            headband with inner damping element, the components work together to
-            deliver comfort and uncompromising sound. Its closed-back design
-            delivers up to 27 dB of passive noise cancellation, reducing
-            resonance by reflecting sound to a dedicated absorber. For
-            connectivity, a specially tuned cable is included with a balanced
-            gold connector.
+            The ZX7 speaker is the perfect blend of stylish design and high
+            performance. It houses an encased MDF wooden enclosure which
+            minimises acoustic resonance. Dual connectivity allows pairing
+            through bluetooth or traditional optical and RCA input. Switch input
+            sources and control volume at your finger tips with the included
+            wireless remote. This versatile speaker is equipped to deliver an
+            authentic listening experience.
           </p>
         </div>
 
@@ -107,20 +110,24 @@ const Headphone01 = () => {
           <div>
             <div className="inboxflex">
               <p className="numbers-section01">1x</p>
-              <p>Headphone Unit</p>
-            </div>
-            <div className="inboxflex">
-              <p className="numbers-section01">2x</p>
-              <p>Replacement Earcups</p>
+              <p>Speaker Unit</p>
             </div>
             <div className="inboxflex">
               <p className="numbers-section01">1x</p>
+              <p>Speaker Cloth Panel</p>
+            </div>
+            <div className="inboxflex">
+              <p className="numbers-section01">2x</p>
               <p> User manual</p>
             </div>
 
             <div className="inboxflex">
               <p className="numbers-section01">1x</p>
-              <p>3.5mm 5m Audio Cable</p>
+              <p>3.5mm 7.5m Audio Cable</p>
+            </div>
+            <div className="inboxflex">
+              <p className="numbers-section01">1x</p>
+              <p>7.5m Optical Cable</p>
             </div>
           </div>
         </div>
