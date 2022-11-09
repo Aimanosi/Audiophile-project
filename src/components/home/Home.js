@@ -17,6 +17,7 @@ import section05desktop from "../../images/home/desktop/image-earphones-yx1.jpg"
 import headphone from "../../images/xheadphones.png";
 import speaker from "../../images/xspeakers.png";
 import earphone from "../../images/xearphones.png";
+import { Link } from "react-router-dom";
 
 const home = () => {
   return (
@@ -42,9 +43,9 @@ const home = () => {
             Experience natural, life like audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          <a href="#" className="btn">
+          <Link to="/headphone" className="btn">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -56,10 +57,10 @@ const home = () => {
           <div className="text-container">
             {" "}
             <p>HEADPHONES</p>{" "}
-            <a href="/headphone">
+            <Link to="/headphone">
               SHOP
               <img id="righticon" src={righticon} alt="" />{" "}
-            </a>{" "}
+            </Link>{" "}
           </div>
         </div>
 
@@ -68,10 +69,10 @@ const home = () => {
           <div className="text-container">
             {" "}
             <p>SPEAKERS</p>{" "}
-            <a href="/speakers">
+            <Link to="/speakers">
               SHOP
               <img id="righticon" src={righticon} alt="" />{" "}
-            </a>{" "}
+            </Link>{" "}
           </div>
         </div>
 
@@ -80,10 +81,10 @@ const home = () => {
           <div className="text-container">
             {" "}
             <p>EARPHONES</p>{" "}
-            <a href="/earphones">
+            <Link to="/earphones">
               SHOP
               <img id="righticon" src={righticon} alt="" />{" "}
-            </a>{" "}
+            </Link>{" "}
           </div>
         </div>
       </div>
@@ -102,9 +103,9 @@ const home = () => {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
-          <a className="btn" href="#">
+          <Link className="btn" to="#">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -116,9 +117,9 @@ const home = () => {
 
         <div className="home04-text">
           <h5>ZX7 SPEAKER</h5>
-          <a className="btn" href="#">
+          <Link className="btn" to="#">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -130,9 +131,9 @@ const home = () => {
         <img className="desk-ear" src={section05desktop} alt="" />
         <div className="home05-text">
           <h5>YX1 EARPHONES</h5>
-          <a className="btn" href="#">
+          <Link className="btn" to="#">
             SEE PRODUCT
-          </a>
+          </Link>
         </div>
       </div>
     </>
