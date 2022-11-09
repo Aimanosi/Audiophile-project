@@ -1,3 +1,276 @@
+.heading-category01 {
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 25px;
+  opacity: 50%;
+  margin: 2rem;
+}
+
 .pictures-headphone-c01 {
   width: 100%;
+}
+
+.headphone-category01 {
+  margin: 0 2rem;
+}
+
+.headphone-category01 .new-product {
+  font-family: "Manrope Regular" Overline;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  line-height: 19.12px;
+  text-transform: uppercase;
+  color: #d87d4a;
+  margin: 1rem 0;
+}
+
+.headphone-category01 h4 {
+  font-family: "Manrope Bold" sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 38.25px;
+  text-transform: uppercase;
+  margin: 2rem 0;
+  text-align: left;
+  padding: 0 5rem 0 0;
+}
+
+.headphone-category01 p {
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 25px;
+  opacity: 50%;
+  padding: 0 5rem 0 0;
+}
+
+.add-tocart {
+  display: flex;
+  margin: 4rem 0;
+}
+
+.counter {
+  display: flex;
+  margin-right: 2rem;
+  background-color: #f1f1f1;
+  width: 8rem;
+  padding: 0 1rem;
+}
+
+.counter p {
+  margin: auto;
+  padding: 0;
+}
+
+.counter a {
+  text-decoration: none;
+  padding-top: 15px;
+  color: black;
+}
+
+.add-tocart .btn {
+  color: #f1f1f1;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 17.76px;
+  font-weight: 700;
+  background-color: #d87d4a;
+  border-radius: 0;
+}
+
+.add-tocart .btn:hover {
+  background-color: #fbaf85;
+}
+
+/* section 2 */
+
+.text-area {
+  margin: 0 2rem;
+}
+
+.text-area h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.86px;
+  margin: 5rem 0 1rem 0;
+}
+
+.text-area p {
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 25px;
+  opacity: 50%;
+  padding: 0 5rem 0 0;
+}
+
+.inboxflex {
+  display: flex;
+}
+
+.numbers-section01 {
+  color: #d87d4a;
+}
+
+/* section 3 */
+
+.pictures-headphone-c01 {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.pictures-headphone-c01 img {
+  width: 86%;
+  margin: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.pictures-headphone-c02,
+.pictures-headphone-c03 {
+  display: none;
+}
+
+@media (min-width: 769px) and (max-width: 1198px) {
+  .headphone-category01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section02-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .section01-text {
+    margin: auto;
+    padding-left: 4rem;
+  }
+
+  .headphone-category01-section03 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 6rem;
+  }
+
+  .headphone-category01-section03 h5 {
+    margin: 0;
+  }
+
+  .pictures-headphone-c02 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .pictures-headphone-c02 {
+    width: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 2rem;
+  }
+
+  .pictures01 {
+    grid-column: span 1;
+  }
+
+  .pictures02 {
+    grid-column: span 1;
+    align-self: end;
+  }
+
+  .pictures03 {
+    grid-row: span 2;
+  }
+
+  .pictures-headphone-c01,
+  .pictures-headphone-c03 {
+    display: none;
+  }
+}
+
+@media (min-width: 1199px) {
+  .headphone-category01 {
+    margin: 0 5rem;
+  }
+
+  .heading-category01 {
+    margin: 2rem 5rem;
+  }
+
+  .headphone-category01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section02-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .section01-text {
+    margin: auto;
+    padding-left: 4rem;
+  }
+
+  .headphone-category01-section03 {
+    display: block;
+  }
+
+  .headphone-category01-section03 h5 {
+    margin: 0;
+  }
+
+  /* section 2 */
+  .text-area {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .text-area {
+    margin: 0 5rem;
+  }
+
+  .headphone-category01-section03 h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.86px;
+    margin: 5rem 0 1rem 0;
+  }
+
+  /* section 3 */
+
+  .pictures-headphone-c01,
+  .pictures-headphone-c02 {
+    display: none;
+  }
+
+  .pictures-headphone-c03 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .pictures-headphone-c03 {
+    width: 100%;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 3.3rem;
+  }
+
+  .pictures-headphone-c03 .pictures01 {
+    grid-column: span 1;
+  }
+
+  .pictures-headphone-c03 .pictures02 {
+    grid-column: span 1;
+    align-self: end;
+  }
+
+  .pictures-headphone-c03 .pictures03 {
+    grid-row: span 2;
+  }
 }

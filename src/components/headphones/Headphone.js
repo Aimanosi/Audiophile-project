@@ -121,8 +121,6 @@ const Headphone = () => {
           </div>
         </div>
       </div>
-
-      <Headphone01 />
     </>
   );
 };
