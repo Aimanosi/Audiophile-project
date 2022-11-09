@@ -79,7 +79,7 @@ const Headphone = () => {
             wireless headset is a brilliant companion at home or on the move.
           </p>
 
-          <a href="#" className="btn">
+          <a href="/headphones03" className="btn">
             SEE PRODUCT
           </a>
         </div>
