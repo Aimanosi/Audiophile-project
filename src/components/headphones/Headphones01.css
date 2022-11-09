@@ -3,7 +3,11 @@
   font-weight: lighter;
   line-height: 25px;
   opacity: 50%;
-  margin: 2rem;
+  margin: 2rem 2rem;
+  text-decoration: none;
+  color: black;
+  border: 0 solid white;
+  background-color: white;
 }
 
 .pictures-headphone-c01 {
@@ -22,7 +26,8 @@
   line-height: 19.12px;
   text-transform: uppercase;
   color: #d87d4a;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  opacity: 100%;
 }
 
 .headphone-category01 h4 {
@@ -45,9 +50,13 @@
   padding: 0 5rem 0 0;
 }
 
+.headphone-category01 h6 {
+  margin-top: 2rem;
+}
+
 .add-tocart {
   display: flex;
-  margin: 4rem 0;
+  margin: 3rem 0;
 }
 
 .counter {
@@ -63,10 +72,17 @@
   padding: 0;
 }
 
+.add-tocart button {
+  border: 0 solid white;
+  background-color: #f1f1f1;
+}
+
 .counter a {
   text-decoration: none;
   padding-top: 15px;
   color: black;
+  border: 0 solid white;
+  background-color: white;
 }
 
 .add-tocart .btn {
@@ -133,6 +149,69 @@
   display: none;
 }
 
+/* section 05 */
+
+.section05heading {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.imgsection05tab,
+.imgsection05desk {
+  display: none;
+}
+.you-may-also-like {
+  text-align: center;
+  margin: 4rem 2rem;
+}
+
+.you-may-also-like h5 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.71px;
+  line-height: 32.78px;
+}
+
+.you-may-also-like a {
+  text-align: center;
+}
+
+.you-may-also-like img {
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.imgsection05mob {
+  width: 100%;
+  text-align: center;
+}
+
+.imgsection05mob img {
+  width: 100%;
+}
+
+.you-may-also-like .btn {
+  color: #f1f1f1;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 17.76px;
+  font-weight: 700;
+  background-color: #d87d4a;
+  border-radius: 0;
+
+  margin-bottom: 4rem;
+}
+
+.you-may-also-like .btn:hover {
+  background-color: #fbaf85;
+}
+
 @media (min-width: 769px) and (max-width: 1198px) {
   .headphone-category01 {
     display: grid;
@@ -188,6 +267,35 @@
   .pictures-headphone-c01,
   .pictures-headphone-c03 {
     display: none;
+  }
+
+  /* section 05 */
+
+  .imgsection05tab {
+    display: block;
+  }
+
+  .imgsection05mob,
+  .imgsection05desk {
+    display: none;
+  }
+
+  .you-may-also-like {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+  }
+
+  .you-may-also-like img {
+    width: 100%;
+  }
+
+  .section05heading {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -272,5 +380,35 @@
 
   .pictures-headphone-c03 .pictures03 {
     grid-row: span 2;
+  }
+
+  /* section 05 */
+
+  .imgsection05desk {
+    display: block;
+  }
+
+  .imgsection05tab,
+  .imgsection05mob {
+    display: none;
+  }
+
+  .you-may-also-like {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    margin: 2rem 4rem;
+  }
+
+  .you-may-also-like img {
+    width: 100%;
+  }
+
+  .section05heading {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
   }
 }

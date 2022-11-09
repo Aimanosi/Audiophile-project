@@ -59,7 +59,7 @@ const Headphone = () => {
             engineers, and music aficionados alike in studios and on the go.
           </p>
 
-          <a href="#" className="btn">
+          <a href="/headphone02" className="btn">
             SEE PRODUCT
           </a>
         </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import "../headphones/Headphones01.css";
-import mobile01 from "../../images/product-xx99-mark-two-headphones/mobile/image-product.jpg";
-import tablet01 from "../../images/product-xx99-mark-two-headphones/tablet/image-product.jpg";
-import desktop01 from "../../images/product-xx99-mark-two-headphones/desktop/image-product.jpg";
+import mobile01 from "../../images/product-xx99-mark-one-headphones/mobile/image-product.jpg";
+import tablet01 from "../../images/product-xx99-mark-one-headphones/tablet/image-product.jpg";
+import desktop01 from "../../images/product-xx99-mark-one-headphones/desktop/image-product.jpg";
 import { Link } from "react-router-dom";
 
 import headphone from "../../images/xheadphones.png";
@@ -10,17 +10,17 @@ import speaker from "../../images/xspeakers.png";
 import earphone from "../../images/xearphones.png";
 import righticon from "../../images/shared/desktop/icon-arrow-right.svg";
 
-import img01 from "../../images/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg";
-import img02 from "../../images/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg";
-import img03 from "../../images/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg";
+import img01 from "../../images/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg";
+import img02 from "../../images/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg";
+import img03 from "../../images/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg";
 
-import img01tab from "../../images/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg";
-import img02tab from "../../images/product-xx99-mark-two-headphones/tablet/image-gallery-2.jpg";
-import img03tab from "../../images/product-xx99-mark-two-headphones/tablet/image-gallery-3.jpg";
+import img01tab from "../../images/product-xx99-mark-one-headphones/tablet/image-gallery-1.jpg";
+import img02tab from "../../images/product-xx99-mark-one-headphones/tablet/image-gallery-2.jpg";
+import img03tab from "../../images/product-xx99-mark-one-headphones/tablet/image-gallery-3.jpg";
 
-import img01desk from "../../images/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg";
-import img02desk from "../../images/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg";
-import img03desk from "../../images/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg";
+import img01desk from "../../images/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg";
+import img02desk from "../../images/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg";
+import img03desk from "../../images/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg";
 
 import imgsection05mob01 from "../../images/shared/mobile/image-xx99-mark-one-headphones.jpg";
 import imgsection05mob02 from "../../images/shared/mobile/image-xx59-headphones.jpg";
@@ -53,14 +53,14 @@ const Headphone01 = () => {
         <img className="section03-img" src={desktop01} alt="" />
         <div className="section01-text">
           <p className="new-product">New product</p>
-          <h4>XX99 Mark II Headphones</h4>
+          <h4>XX99 Mark I Headphones</h4>
           <p>
-            The new XX99 Mark II headphones is the pinnacle of pristine audio.
-            It redefines your premium headphone experience by reproducing the
-            balanced depth and precision of studio-quality sound.
+            As the gold standard for headphones, the classic XX99 Mark I offers
+            detailed and accurate audio reproduction for audiophiles, mixing
+            engineers, and music aficionados alike in studios and on the go.
           </p>
 
-          <h6>$ 2,999</h6>
+          <h6>$ 1,750</h6>
 
           <div className="add-tocart">
             <div className="counter">
@@ -81,21 +81,20 @@ const Headphone01 = () => {
         <div>
           <h5>FEATURES</h5>
           <p>
-            Featuring a genuine leather head strap and premium earcups, these
-            headphones deliver superior comfort for those who like to enjoy
-            endless listening. It includes intuitive controls designed for any
-            situation. Whether you’re taking a business call or just in your own
-            personal space, the auto on/off and pause features ensure that
-            you’ll never miss a beat.
+            As the headphones all others are measured against, the XX99 Mark I
+            demonstrates over five decades of audio expertise, redefining the
+            critical listening experience. This pair of closed-back headphones
+            are made of industrial, aerospace-grade materials to emphasize
+            durability at a relatively light weight of 11 oz.
           </p>
           <p>
-            The advanced Active Noise Cancellation with built-in equalizer allow
-            you to experience your audio world on your terms. It lets you enjoy
-            your audio in peace, but quickly interact with your surroundings
-            when you need to. Combined with Bluetooth 5. 0 compliant
-            connectivity and 17 hour battery life, the XX99 Mark II headphones
-            gives you superior sound, cutting-edge technology, and a modern
-            design aesthetic.
+            From the handcrafted microfiber ear cushions to the robust metal
+            headband with inner damping element, the components work together to
+            deliver comfort and uncompromising sound. Its closed-back design
+            delivers up to 27 dB of passive noise cancellation, reducing
+            resonance by reflecting sound to a dedicated absorber. For
+            connectivity, a specially tuned cable is included with a balanced
+            gold connector.
           </p>
         </div>
 
@@ -112,21 +111,17 @@ const Headphone01 = () => {
               <p>Headphone Unit</p>
             </div>
             <div className="inboxflex">
-              <p className="numbers-section01">1x</p>
+              <p className="numbers-section01">2x</p>
               <p>Replacement Earcups</p>
             </div>
             <div className="inboxflex">
-              <p className="numbers-section01">2x</p>
+              <p className="numbers-section01">1x</p>
               <p> User manual</p>
             </div>
 
             <div className="inboxflex">
               <p className="numbers-section01">1x</p>
               <p>3.5mm 5m Audio Cable</p>
-            </div>
-            <div className="inboxflex">
-              <p className="numbers-section01">1x</p>
-              <p>Travel Bag</p>
             </div>
           </div>
         </div>
