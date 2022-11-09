@@ -52,7 +52,6 @@ const Headphone01 = () => {
         <img className="section02-img" src={tablet01} alt="" />
         <img className="section03-img" src={desktop01} alt="" />
         <div className="section01-text">
-          <p className="new-product">New product</p>
           <h4>XX99 Mark I Headphones</h4>
           <p>
             As the gold standard for headphones, the classic XX99 Mark I offers

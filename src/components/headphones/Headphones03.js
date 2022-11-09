@@ -54,7 +54,6 @@ const Headphone01 = () => {
         <img className="section02-img" src={tablet01} alt="" />
         <img className="section03-img" src={desktop01} alt="" />
         <div className="section01-text">
-          <p className="new-product">New product</p>
           <h4>
             XX59 <br /> Headphones
           </h4>
