@@ -8,6 +8,7 @@ import headphone from "../../images/xheadphones.png";
 import speaker from "../../images/xspeakers.png";
 import earphone from "../../images/xearphones.png";
 import righticon from "../../images/shared/desktop/icon-arrow-right.svg";
+import { Link } from "react-router-dom";
 
 const Earphones = () => {
   return (
@@ -32,9 +33,9 @@ const Earphones = () => {
               cancellation feature.
             </p>
 
-            <a href="#" className="btn">
+            <Link to="/earphone01" className="btn">
               SEE PRODUCT
-            </a>
+            </Link>
           </div>
         </div>
 
