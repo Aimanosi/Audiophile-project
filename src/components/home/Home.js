@@ -43,7 +43,7 @@ const home = () => {
             Experience natural, life like audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          <Link to="/headphone" className="btn">
+          <Link to="/headphone01" className="btn">
             SEE PRODUCT
           </Link>
         </div>
@@ -103,7 +103,7 @@ const home = () => {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
-          <Link className="btn" to="#">
+          <Link className="btn" to="/speaker01">
             SEE PRODUCT
           </Link>
         </div>
@@ -117,7 +117,7 @@ const home = () => {
 
         <div className="home04-text">
           <h5>ZX7 SPEAKER</h5>
-          <Link className="btn" to="#">
+          <Link className="btn" to="/speaker02">
             SEE PRODUCT
           </Link>
         </div>
@@ -131,7 +131,7 @@ const home = () => {
         <img className="desk-ear" src={section05desktop} alt="" />
         <div className="home05-text">
           <h5>YX1 EARPHONES</h5>
-          <Link className="btn" to="#">
+          <Link className="btn" to="/earphone01">
             SEE PRODUCT
           </Link>
         </div>

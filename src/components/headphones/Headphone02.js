@@ -23,15 +23,15 @@ import img01desk from "../../images/product-xx99-mark-one-headphones/desktop/ima
 import img02desk from "../../images/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg";
 import img03desk from "../../images/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg";
 
-import imgsection05mob01 from "../../images/shared/mobile/image-xx99-mark-one-headphones.jpg";
+import imgsection05mob01 from "../../images/shared/mobile/image-xx99-mark-two-headphones.jpg";
 import imgsection05mob02 from "../../images/shared/mobile/image-xx59-headphones.jpg";
 import imgsection05mob03 from "../../images/shared/mobile/image-zx9-speaker.jpg";
 
-import imgsection05tab01 from "../../images/shared/tablet/image-xx99-mark-one-headphones.jpg";
+import imgsection05tab01 from "../../images/shared/tablet/image-xx99-mark-two-headphones.jpg";
 import imgsection05tab02 from "../../images/shared/tablet/image-xx59-headphones.jpg";
 import imgsection05tab03 from "../../images/shared/tablet/image-zx9-speaker.jpg";
 
-import imgsection05desk01 from "../../images/shared/desktop/image-xx99-mark-one-headphones.jpg";
+import imgsection05desk01 from "../../images/shared/desktop/image-xx99-mark-two-headphones.jpg";
 import imgsection05desk02 from "../../images/shared/desktop/image-xx59-headphones.jpg";
 import imgsection05desk03 from "../../images/shared/desktop/image-zx9-speaker.jpg";
 
@@ -77,7 +77,7 @@ const Headphone01 = () => {
               <p id="count">{count}</p>
               <button onClick={increase}>+</button>
             </div>
-            <Link href="/" className="btn">
+            <Link to="/" className="btn">
               ADD TO CART
             </Link>
           </div>
@@ -162,8 +162,8 @@ const Headphone01 = () => {
           <img className="imgsection05mob" src={imgsection05mob01} alt="" />
           <img className="imgsection05tab" src={imgsection05tab01} alt="" />
           <img className="imgsection05desk" src={imgsection05desk01} alt="" />
-          <h5>XX99 MARK I</h5>
-          <Link href="/" className="btn">
+          <h5>XX99 MARK II</h5>
+          <Link to="/headphone01" className="btn">
             SEE PRODUCT
           </Link>
         </div>
@@ -172,7 +172,7 @@ const Headphone01 = () => {
           <img className="imgsection05tab" src={imgsection05tab02} alt="" />
           <img className="imgsection05desk" src={imgsection05desk02} alt="" />
           <h5>XX59</h5>
-          <Link href="/" className="btn">
+          <Link to="/headphone03" className="btn">
             SEE PRODUCT
           </Link>
         </div>
@@ -181,7 +181,7 @@ const Headphone01 = () => {
           <img className="imgsection05tab" src={imgsection05tab03} alt="" />
           <img className="imgsection05desk" src={imgsection05desk03} alt="" />
           <h5>ZX9 SPEAKER</h5>
-          <Link href="/" className="btn">
+          <Link to="/speaker01" className="btn">
             SEE PRODUCT
           </Link>
         </div>
@@ -193,7 +193,7 @@ const Headphone01 = () => {
           <div className="text-container">
             {" "}
             <p>HEADPHONES</p>{" "}
-            <Link href="/headphone">
+            <Link to="/headphone">
               SHOP
               <img id="righticon" src={righticon} alt="" />{" "}
             </Link>{" "}
@@ -205,7 +205,7 @@ const Headphone01 = () => {
           <div className="text-container">
             {" "}
             <p>SPEAKERS</p>{" "}
-            <Link href="/speakers">
+            <Link to="/speakers">
               SHOP
               <img id="righticon" src={righticon} alt="" />{" "}
             </Link>{" "}
@@ -217,7 +217,7 @@ const Headphone01 = () => {
           <div className="text-container">
             {" "}
             <p>EARPHONES</p>{" "}
-            <Link href="/earphones">
+            <Link to="/earphones">
               SHOP
               <img id="righticon" src={righticon} alt="" />{" "}
             </Link>{" "}
