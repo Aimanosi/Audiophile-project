@@ -8,6 +8,7 @@ import navbrand from "../../images/home/desktop/audiophile.png";
 import facebookicon from "../../images/shared/desktop/icon-facebook.svg";
 import twittericon from "../../images/shared/desktop/icon-twitter.svg";
 import instagramicon from "../../images/shared/desktop/icon-instagram.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -43,10 +44,10 @@ const Footer = () => {
           </div>
 
           <div className="links">
-            <a href="/">HOME</a>
-            <a href="/headphone">HEADPHONES</a>
-            <a href="/speakers">SPEAKERS</a>
-            <a href="/earphones">EARPHONES</a>
+            <Link to="/">HOME</Link>
+            <Link to="/headphone">HEADPHONES</Link>
+            <Link to="/speakers">SPEAKERS</Link>
+            <Link to="/earphones">EARPHONES</Link>
           </div>
         </div>
         <p>
@@ -59,16 +60,16 @@ const Footer = () => {
         <div className="cr-link">
           <p>Copyright 2021. All Rights Reserved</p>
           <div className="socials">
-            <a href="#">
+            <Link to="#">
               <img src={facebookicon} alt="" />
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="#">
               <img id="twitter" src={twittericon} alt="" />
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="#">
               {" "}
               <img src={instagramicon} alt="" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
