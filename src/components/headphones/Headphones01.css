@@ -28,9 +28,11 @@ body {
 }
 
 .headphone-category01 .new-product {
-  font-family: "Manrope Regular" Overline;
-  font-size: 14px;
+  font-family: "Manrope";
+  font-style: normal;
   font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
   letter-spacing: 10px;
   line-height: 19.12px;
   text-transform: uppercase;
@@ -117,6 +119,11 @@ body {
 
 .add-tocart .btn:hover {
   background-color: #fbaf85;
+}
+
+.add-tocart p {
+  color: #000000;
+  opacity: 100;
 }
 
 /* section 2 */
@@ -239,6 +246,7 @@ body {
   .headphone-category01 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
   }
 
   .headphone-category01 p {
@@ -348,6 +356,10 @@ body {
     text-align: center;
     margin-top: 6rem;
     margin-bottom: 3rem;
+  }
+  .add-tocart p {
+    color: #000000;
+    opacity: 100;
   }
 }
 
@@ -491,5 +503,10 @@ body {
     text-align: center;
     margin-top: 6rem;
     margin-bottom: 3rem;
+  }
+
+  .add-tocart p {
+    color: #000000;
+    opacity: 100;
   }
 }
