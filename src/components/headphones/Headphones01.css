@@ -1,17 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+
 body {
   font-family: "Manrope", sans-serif;
 }
 
-.heading-category01 {
+.heading-category01 a {
   font-size: 15px;
   font-weight: lighter;
   line-height: 25px;
   opacity: 50%;
-  margin: 2rem 2rem;
   text-decoration: none;
   color: black;
   border: 0 solid white;
   background-color: white;
+}
+
+.heading-category01 {
+  margin: 2rem 2rem 0 2rem;
 }
 
 .pictures-headphone-c01 {
@@ -51,7 +56,8 @@ body {
   font-weight: lighter;
   line-height: 25px;
   opacity: 50%;
-  padding: 0 5rem 0 0;
+  /* padding: 0 5rem 0 0; */
+  width: 340px;
 }
 
 .headphone-category01 h6 {
@@ -68,25 +74,33 @@ body {
   margin-right: 2rem;
   background-color: #f1f1f1;
   width: 8rem;
-  padding: 0 1rem;
+  padding: 0;
 }
 
-.counter p {
+.counter #count {
   margin: auto;
-  padding: 0;
+  padding: 0 2rem;
 }
 
 .add-tocart button {
   border: 0 solid white;
   background-color: #f1f1f1;
-}
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 10px;
+  /* identical to box height */
 
-.counter a {
-  text-decoration: none;
-  padding-top: 15px;
-  color: black;
-  border: 0 solid white;
-  background-color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.25;
 }
 
 .add-tocart .btn {
@@ -120,20 +134,24 @@ body {
 }
 
 .text-area p {
+  font-family: "Manrope";
+  font-style: normal;
   font-size: 15px;
-  font-weight: lighter;
   line-height: 25px;
-  opacity: 50%;
-  padding: 0 5rem 0 0;
-}
+  width: 340px;
 
-.inboxflex {
-  display: flex;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
 
 .numbers-section01 {
   color: #d87d4a;
-  margin-right: -3rem;
+  margin-right: 2rem;
 }
 
 /* section 3 */
@@ -223,6 +241,31 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
+  .headphone-category01 p {
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 25px;
+    opacity: 50%;
+    /* padding: 0 5rem 0 0; */
+    width: 340px;
+  }
+
+  .text-area p {
+    font-family: "Manrope";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    width: 689px;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
   .section02-img {
     width: 100%;
     margin: 0;
@@ -241,6 +284,10 @@ body {
 
   .headphone-category01-section03 h5 {
     margin: 0;
+  }
+
+  .headphone-category01-section03 p {
+    width: auto;
   }
 
   .pictures-headphone-c02 img {
@@ -309,6 +356,31 @@ body {
     margin: 0 5rem;
   }
 
+  .headphone-category01 p {
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 25px;
+    opacity: 50%;
+    /* padding: 0 5rem 0 0; */
+    width: 445px;
+  }
+
+  .text-area p {
+    font-family: "Manrope";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    width: 635px;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
   .heading-category01 {
     margin: 2rem 5rem;
   }
@@ -352,6 +424,10 @@ body {
     line-height: 36px;
     letter-spacing: 0.86px;
     margin: 5rem 0 1rem 0;
+  }
+
+  .headphone-category01-section03 p {
+    width: auto;
   }
 
   /* section 3 */

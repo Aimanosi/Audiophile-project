@@ -4,6 +4,7 @@ import mobile01 from "../../images/product-xx99-mark-one-headphones/mobile/image
 import tablet01 from "../../images/product-xx99-mark-one-headphones/tablet/image-product.jpg";
 import desktop01 from "../../images/product-xx99-mark-one-headphones/desktop/image-product.jpg";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 import headphone from "../../images/xheadphones.png";
 import speaker from "../../images/xspeakers.png";
@@ -35,17 +36,26 @@ import imgsection05desk02 from "../../images/shared/desktop/image-xx59-headphone
 import imgsection05desk03 from "../../images/shared/desktop/image-zx9-speaker.jpg";
 
 const Headphone01 = () => {
+  const [count, setCount] = useState(1);
+  const decrease = () => {
+    setCount(count > 1 ? count - 1 : count);
+  };
+  const increase = () => {
+    setCount(count + 1);
+  };
+
+  const goBack = () => {
+    window.history.back();
+  };
   return (
     <>
       {/* section 01 */}
 
-      <Link
-        href="/headphone"
-        className="heading-category01"
-        id="heading-category01"
-      >
-        Go Back
-      </Link>
+      <div className="heading-category01">
+        <Link to="#" onClick={goBack}>
+          Go Back
+        </Link>
+      </div>
 
       <div className="headphone-category01">
         <img className="section01-img" src={mobile01} alt="" />
@@ -63,9 +73,9 @@ const Headphone01 = () => {
 
           <div className="add-tocart">
             <div className="counter">
-              <button>-</button>
-              <p>1</p>
-              <button>+</button>
+              <button onClick={decrease}>-</button>
+              <p id="count">{count}</p>
+              <button onClick={increase}>+</button>
             </div>
             <Link href="/" className="btn">
               ADD TO CART
@@ -103,25 +113,23 @@ const Headphone01 = () => {
           <div>
             <h5>IN THE BOX</h5>
           </div>
-
           <div>
-            <div className="inboxflex">
-              <p className="numbers-section01">1x</p>
-              <p>Headphone Unit</p>
-            </div>
-            <div className="inboxflex">
-              <p className="numbers-section01">2x</p>
-              <p>Replacement Earcups</p>
-            </div>
-            <div className="inboxflex">
-              <p className="numbers-section01">1x</p>
-              <p> User manual</p>
-            </div>
-
-            <div className="inboxflex">
-              <p className="numbers-section01">1x</p>
-              <p>3.5mm 5m Audio Cable</p>
-            </div>
+            <p>
+              {" "}
+              <span className="numbers-section01">1x</span>Headphone Unit
+            </p>
+            <p>
+              {" "}
+              <span className="numbers-section01">2x</span>Replacement Earcups
+            </p>
+            <p>
+              {" "}
+              <span className="numbers-section01">1x</span>User manual
+            </p>
+            <p>
+              {" "}
+              <span className="numbers-section01">1x</span>3.5mm 5m Audio Cable
+            </p>
           </div>
         </div>
       </div>
