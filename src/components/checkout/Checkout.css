@@ -1,0 +1,121 @@
+.checkoutHeading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+
+  letter-spacing: 0.928571px;
+  text-transform: uppercase;
+  color: #d87d4a;
+  margin-left: 2rem;
+}
+
+form {
+  margin: 2rem;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  height: 56px;
+}
+
+.checkbox {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  height: 56px;
+}
+
+#cash-on-delivery {
+  margin-right: 2rem;
+  background-color: #d87d4a;
+  color: #d87d4a;
+}
+
+.summary {
+  margin: 2rem;
+  justify-items: end;
+}
+
+.summary span {
+  padding-left: 0;
+}
+
+.summary .summary-p {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.summary-flex {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 2rem;
+}
+.summary h6 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  margin: 3rem 0;
+
+  color: #000000;
+}
+
+.summary img {
+  border-radius: 10px;
+  width: 64px;
+  height: 64px;
+}
+
+.text {
+  height: 64px;
+}
+
+.opacity {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+
+  text-align: right;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.amount {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}

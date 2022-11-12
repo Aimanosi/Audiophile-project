@@ -77,9 +77,9 @@ const Headphone01 = () => {
               <p id="count">{count}</p>
               <button onClick={increase}>+</button>
             </div>
-            <a to="/" className="btn">
+            <Link to="/checkout" className="btn">
               ADD TO CART
-            </a>
+            </Link>
           </div>
         </div>
       </div>
